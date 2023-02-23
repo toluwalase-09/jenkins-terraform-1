@@ -20,7 +20,7 @@ resource "aws_subnet" "lifebit_subnet" {
 }
 
 locals {
-  ports_in		= [22,80,3000]
+  ports_in		= [22,80,3000. 2000. 804]
   ports_out		= [0]
 }
 
